@@ -1,0 +1,64 @@
+.timerContainer {
+  height: 100px;
+  width: 500px;
+  border: 2px solid #36d4d4;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #36d4d4;
+  color: #ffffff;
+  text-align: center;
+}
+.timerContainer p {
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 10%;
+}
+.timerContainer h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.timer {
+  margin-left: 10%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 1%;
+  border: 2px solid #36d4d4;
+  width: 50%;
+  height: 65%;
+  border-radius: 20px;
+}
+.timer .timeSection {
+  border: 2px solid white;
+  border-radius: 20px;
+  background-color: #36d4d4;
+  color: white;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40px;
+  height: 50px;
+}
+.timer .timeSection p {
+  font-size: 80%;
+  font-weight: 500;
+}
+.timer .timeSection p:last-child {
+  margin: 10px;
+}
+.timer .hours {
+  padding: 10%;
+}
+.timer .minutes {
+  padding: 10%;
+}
+.timer .seconds {
+  padding: 10%;
+}
